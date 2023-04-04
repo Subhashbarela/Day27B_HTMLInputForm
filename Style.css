@@ -3,16 +3,26 @@ html,input{
 }
 body{
     width: 80%;
-    max-width: 600px auto;
+    max-width: 800px auto;
     margin: 0px auto;
     padding: 2em;
+   
+}
+.main-container{
+    background-color: rgb(246, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 2px 14px grey;
 }
 
 .headContainer{
     display: flex;
     flex-flow: column wrap;
     align-content: center;
-    background: rgb(60, 218, 170);
+    background: rgb(185, 29, 117);
+    margin-bottom: 15px;
+    
 }
 
 form{
